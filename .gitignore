@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+credentials.php
+**/credentials.php
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Logs & Temp & Archives
+*.log
+*.tmp
+*.bak
+*.zip
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
